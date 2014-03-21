@@ -48,6 +48,7 @@ int main()
 	char *phone2 = new char[20];
 	int i, chk_dup;
 	chk_dup = 0;
+	int n_menu = 0;
 	cout<<"###### Make Phone Adress #####\n";
 	cout<<"1. Load text file\n";
 	cout<<"2. Make Phone address file\n";
