@@ -54,7 +54,6 @@ int main()
 	cout<<"2. Make Phone address file\n";
 	cout<<"3. Read Phone address file\n";
 	cout<<"4. Exit\n";
-	cout<<"Modified at github\n";
 	while(F.ReadCommand(keys)) //read file's one line. If read all line, end while loop
 	{
 		if(strcmp(keys, "") == 0) //if readed line has no keys
