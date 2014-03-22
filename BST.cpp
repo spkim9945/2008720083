@@ -13,6 +13,7 @@ BST::BST(void)
 
 BST::~BST(void)
 {
+	cout<<"Test git diff\n";
 	Destructor();
 }
 
